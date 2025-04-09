@@ -329,8 +329,9 @@ class Connect4:
             else: # AI's turn
                 print(AI_COLOUR + f"AI ({self.PLAYER_2}) is thinking...\n")
                 time.sleep(1)
-                
-                column = self.ml_agent_predict()
+
+                column = self.minimax_agent_move()
+                # column = self.ml_agent_predict()
                 # column = self.random_agent()
                 # column = self.smart_agent()
 
