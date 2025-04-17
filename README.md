@@ -34,3 +34,4 @@ If you'd like to rerun or inspect the notebooks:
 3. Open and run:
    -  `generate_minimax_dataset.ipynb`
    -  `train_minimax_model.ipynb`
+> The notebook was created and tested in Jupyter Notebook.
