@@ -7,6 +7,7 @@ This repository contains the training code and dataset used to build a Connect 4
 - `generate_minimax_dataset.ipynb` – Generates a dataset of board states and best moves using minimax with alpha-beta pruning
 - `minimax_labelled_data.csv` – The generated dataset of board positions and labels
 - `train_minimax_model.ipynb` – Trains a `GradientBoostingClassifier` on the dataset
+- `game.py` – Core Connect 4 logic used during dataset generation and model training
 - `ml_agent_minimax.pkl` – Trained model using minimax-labelled data
 - `ml_agent.pkl` – Older ML agent trained using the original UCI Connect 4 dataset
 
