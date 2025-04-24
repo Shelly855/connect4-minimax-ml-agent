@@ -1,7 +1,22 @@
-# === General References ===
-# - Keith Galli’s Connect 4 AI (GitHub):
-#   https://github.com/KeithGalli/Connect4-Python/blob/master/connect4_with_ai.py
-#   Used as a reference for structuring minimax, alpha-beta pruning, and evaluation heuristics.
+# General References
+# Keith Galli - Connect 4 AI (GitHub):
+# https://github.com/KeithGalli/Connect4-Python/blob/master/connect4_with_ai.py
+# Used as a reference for structuring minimax, alpha-beta pruning, and evaluation heuristics.
+
+"""
+game.py – Connect 4 logic used for ML training with minimax-labelled data.
+
+This module defines the Connect4 class and provides the game logic used by
+the `generate_minimax_dataset.ipynb` and `train_minimax_model.ipynb` notebooks.
+
+Includes:
+- Board representation and move handling
+- Evaluation function for minimax
+- Minimax agent with alpha-beta pruning
+- Random, Smart, and ML-based agent methods
+
+Not intended for gameplay; used as a backend logic module for training purposes only.
+"""
 
 import random
 import time
