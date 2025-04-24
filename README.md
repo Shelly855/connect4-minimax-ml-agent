@@ -2,6 +2,18 @@
 
 This project folder contains the notebooks and model used to train a Connect 4 ML agent using minimax-generated data. Running it is **not required** to play the final game.
 
+---
+
+## Table of Contents
+
+- [Connect 4 – Minimax-Trained ML Agent](#connect-4--minimax-trained-ml-agent)
+- [Files](#files)
+- [Notes](#notes)
+- [Optional Setup (Not Required)](#optional-setup-not-required)
+- [GitHub Version (Optional)](#github-version-optional)
+
+---
+
 ## Files
 
 - `generate_minimax_dataset.ipynb` – Generates a dataset of board states and best moves using minimax with alpha-beta pruning
@@ -41,4 +53,4 @@ If you'd like to rerun the notebooks locally:
 ## GitHub Version (Optional)
 
 [View this folder on GitHub](https://github.com/Shelly855/connect4-minimax-ml-agent)  
-> **Note:** This link is optional and not required for marking. The GitHub version may be updated after submission.
+> **Note:** This GitHub link is optional and not required for marking. The repository may be updated after submission.
