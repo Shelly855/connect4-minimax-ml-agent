@@ -9,6 +9,7 @@ This project folder contains the notebooks and model used to train a Connect 4 M
 - [Connect 4 – Minimax-Trained ML Agent](#connect-4--minimax-trained-ml-agent)
 - [Files](#files)
 - [Notes](#notes)
+- [References](#references)
 - [Optional Setup (Not Required)](#optional-setup-not-required)
 - [GitHub Version (Optional)](#github-version-optional)
 
@@ -30,6 +31,12 @@ This project folder contains the notebooks and model used to train a Connect 4 M
 - The minimax-labelled dataset is generated from scratch using the same evaluation heuristics as in-game.
 - The trained model (`ml_agent_minimax.pkl`) mimics minimax behaviour and is loaded directly in the game.
 - This folder is **not required** to play the game.
+
+---
+
+## References
+- Scikit-learn: Machine Learning in Python
+  - https://scikit-learn.org/stable/index.html
 
 ---
 
