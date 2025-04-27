@@ -40,7 +40,7 @@ This project folder contains the notebooks and model used to train a Connect 4 M
 
 ---
 
-## Optional Setup (Not Required)
+## Optional Setup
 
 If you'd like to rerun the notebooks locally:
 
