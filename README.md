@@ -1,6 +1,6 @@
 # Connect 4 – Minimax-Trained ML Agent
 
-This project folder contains the notebooks and model used to train a Connect 4 ML agent using minimax-generated data. Running it is **not required** to play the final game.
+This repository contains the notebooks and model used to train a Connect 4 ML agent using minimax-generated data. Running it is **not required** to play the [final game](https://github.com/Shelly855/connect4-ai).
 
 ---
 
@@ -30,7 +30,6 @@ This project folder contains the notebooks and model used to train a Connect 4 M
 
 - The minimax-labelled dataset is generated from scratch using the same evaluation heuristics as in-game.
 - The trained model (`ml_agent_minimax.pkl`) mimics minimax behaviour and is loaded directly in the game.
-- This folder is **not required** to play the game.
 
 ---
 
@@ -54,10 +53,3 @@ If you'd like to rerun the notebooks locally:
    -  `generate_minimax_dataset.ipynb`
    -  `train_minimax_model.ipynb`
 > The notebooks was created in Jupyter Notebook. You can also open it in VS Code with the Jupyter extension.
-
----
-
-## GitHub Version (Optional)
-
-[View this folder on GitHub](https://github.com/Shelly855/connect4-minimax-ml-agent)  
-> **Note:** This GitHub link is optional and not required for marking. The repository may be updated after submission.
