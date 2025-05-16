@@ -11,7 +11,6 @@ This repository contains the notebooks and model used to train a Connect 4 ML ag
 - [Notes](#notes)
 - [References](#references)
 - [Optional Setup (Not Required)](#optional-setup-not-required)
-- [GitHub Version (Optional)](#github-version-optional)
 
 ---
 
